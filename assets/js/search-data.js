@@ -16,12 +16,12 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-open-student-topics",
-          title: "Open Student Topics",
-          description: "Here you can find all student projects I currently offer for supervision, ranging from Master’s Theses to Guided Research topics. If you would like to apply, please include the title of the project you are interested in when contacting me.",
+        },{id: "nav-research-topics",
+          title: "Research Topics",
+          description: "This page presents the research topics I am currently working on and interested in supervising. If you are looking for a Master’s Thesis or Guided Research project, please mention which of the topics below you would like to work on when contacting me.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/open-student-projects/";
+            window.location.href = "/research-topics/";
           },
         },{id: "books-the-godfather",
           title: 'The Godfather',
@@ -39,11 +39,26 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+          section: "News",},{id: "projects-adapting-to-the-user-s-writing-style",
+          title: 'Adapting to the User’s Writing Style',
+          description: "How LLMs align with personal writing distributions without finetuning",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
+              window.location.href = "/projects/adapting-writing-style/";
+            },},{id: "projects-context-clashes",
+          title: 'Context Clashes',
+          description: "How phrasing and formatting unintentionally shift LLM behavior",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/context-clash/";
+            },},{id: "projects-granularity-amp-uncertainty-in-llm-responses",
+          title: 'Granularity &amp;amp; Uncertainty in LLM Responses',
+          description: "How LLMs express, manage, and adapt to uncertainty",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/granularity_and_uncertainty_responses/";
+            },},{id: "projects-what-could-this-message-mean",
+          title: 'What Could This Message Mean?',
+          description: "LLMs as external observers generating plausible interpretations of text",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/what-could-this-text-mean/";
             },},{
         id: 'social-email',
         title: 'email',
