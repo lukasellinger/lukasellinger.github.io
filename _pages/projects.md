@@ -1,11 +1,11 @@
 ---
 layout: page
-title: projects
-permalink: /projects/
-description: A growing collection of your cool projects.
+title: Open Student Topics
+permalink: /open-student-projects/
+description: Here you can find all student projects I currently offer for supervision, ranging from Master’s Theses to Guided Research topics. If you would like to apply, please include the title of the project you are interested in when contacting me.
 nav: true
 nav_order: 3
-display_categories: [work, fun]
+display_categories: ["Master’s Theses & Guided Research Projects"]
 horizontal: false
 ---
 
